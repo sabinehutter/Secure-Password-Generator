@@ -172,45 +172,45 @@ function generatePassword(userOptions) {
 
   var confirmedChar = [];
 
-  for (i= 0; i < userConditions.length; i++){
-  // if lower
-  if (userConditions.lowercaseLetters == true) {
-    // add lowerCharsArray to optinalChars
-    possibleChar = possibleChar.concat(lowerCasedCharacters);
+  for (i = 0; i < userConditions.length; i++) {
+    // if lower
+    if (userConditions.lowercaseLetters == true) {
+      // add lowerCharsArray to optinalChars
+      possibleChar = possibleChar.concat(lowerCasedCharacters);
 
-    // push random lower char to password
-    confirmedChar.push(getRandom(lowerCasedCharacters))
+      // push random lower char to password
+      confirmedChar.push(getRandom(lowerCasedCharacters))
+    }
+
+    // if upper
+    if (userConditions.uppercaseLetters == true) {
+      // add upperCharsArray to optinalChars
+      possibleChar = possibleChar.concat(upperCasedCharacters);
+
+      // add upperCharsArray to optinalChars
+      confirmedChar.push(getRandom(upperCasedCharacters))
+    }
+
+    // if number 
+    if (userConditions.numericNumbers == true) {
+      // add numberCharsArray to optinalChars
+      possibleChar = possibleChar.concat(numericCharacters);
+
+      // push random number char to password
+      confirmedChar.push(getRandom(numericCharacters))
+    }
+
+
+    // if special
+    if (userConditions.specialCharacters == true) {
+
+      // add specialCharsArray to optinalChars
+      possibleChar = possibleChar.concat(specialCharacters);
+
+      // push random special char to password
+      confirmedChar.push(getRandom(specialCharacters));
+    }
   }
-
-  // if upper
-  if (userConditions.uppercaseLetters == true) {
-    // add upperCharsArray to optinalChars
-    possibleChar = possibleChar.concat(upperCasedCharacters);
-
-    // add upperCharsArray to optinalChars
-    confirmedChar.push(getRandom(upperCasedCharacters))
-  }
-
-  // if number 
-  if (userConditions.numericNumbers == true) {
-    // add numberCharsArray to optinalChars
-    possibleChar = possibleChar.concat(numericCharacters);
-
-    // push random number char to password
-    confirmedChar.push(getRandom(numericCharacters))
-  }
-
-
-  // if special
-  if (userConditions.specialCharacters == true) {
-
-    // add specialCharsArray to optinalChars
-    possibleChar = possibleChar.concat(specialCharacters);
-
-    // push random special char to password
-    confirmedChar.push(getRandom(specialCharacters));
-  }
-}
 
   console.log(possibleChar)
 
@@ -222,12 +222,39 @@ function generatePassword(userOptions) {
   }
 
   // making sure at least of confirmed chars is in the result 
-  for (var i = 0; i < userConditions.length; i++) {
-    password[i] = confirmedChar[i];
+
+  for (element in password) {
+    // checking length user case
+
+    if (parseInt(password.length) === parseInt(userConditions.length)) {
+      var matchingLength = "match"
+    }
+
+    if (userConditions.specialCharacters === true && specialCharacters.includes(password[element]) || userConditions.specialCharacters === false && specialCharacters.includes(password[element]) === false) {
+      var matchingSpecialChar = "match"
+    }
+
+    if (userConditions.numericNumbers === true && numericCharacters.includes(password[element]) || userConditions.numericNumbers === false && numericCharacters.includes(password[element]) === false) {
+      var matchingNumericChar = "match"
+    }
+
+    if (userConditions.lowercaseLetters === true && lowerCasedCharacters.includes(password[element]) || userConditions.lowercaseLetters === false && lowerCasedCharacters.includes(password[element]) === false) {
+      var matchingLowercaseChar = "match"    
+    }
+
+    if (userConditions.uppercaseLetters === true && upperCasedCharacters.includes(password[element]) || userConditions.uppercaseLetters === false && upperCasedCharacters.includes(password[element]) === false) {
+      var matchingUppercaseChar = "match"
+    }
   }
 
-  // return password string
-  console.log(password)
+console.log("Your Password length : (" + matchingLength + ")")
+console.log("Your Selection of Special Char : (" + matchingSpecialChar + ")")  
+console.log("Your Selection of Numeric Char : (" + matchingNumericChar + ")")  
+console.log("Your Selection of Lowercase Char : (" + matchingLowercaseChar + ")")  
+console.log("Your Selection of Uppercase Char : (" + matchingUppercaseChar + ")")  
+
+// return password string
+console.log(password)
   return password.join("");
   // make array a string
 
