@@ -21,7 +21,7 @@ Then you must chose whether you would like your secure password to include the f
 ![Image of Uppercase Letters Question](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Uppercase-Char.png)
 ![Image of Lowercase Letters Question](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Lowercase-Char.png)
 ![Image of Special Characters Question](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Special-Char.png)
-![Image of Numeric Characters Question]()
+![Image of Numeric Characters Question](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Numeric-Char.png)
 
 If you do not chose at least one condition you will be prompt to start again and choose at least one. 
 ![Image of Condition Chose]()
