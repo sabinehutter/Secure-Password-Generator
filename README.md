@@ -10,25 +10,25 @@ This application was created using HTML, CSS, and Javascript.
 
 This is an automatic secure password generator. 
 
-![Image of Password Generator](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev-Quiz-Homepage.png)
+![Image of Password Generator]()
 
 You are prompted to enter a password length
 
-![Image of Homepage](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev-Quiz-Homepage.png)
+![Image of Homepage]()
 
 Then you must chose whether you would like your secure password to include the following chararcters : uppercase letters, lowercase letters, special characters, and numeric characters. 
 
-![Image of Uppercase Letters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
-![Image of Lowercase Letters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
-![Image of Special Characters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
-![Image of Numeric Characters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
+![Image of Uppercase Letters Question]()
+![Image of Lowercase Letters Question]()
+![Image of Special Characters Question]()
+![Image of Numeric Characters Question]()
 
 If you do not chose at least one condition you will be prompt to start again and choose at least one. 
-![Image of Condition Chose](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
+![Image of Condition Chose]()
 
 At the end you will be presented with a secure password that meets all your guidelines!
 
-![Image of Pass Generated](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev-Quiz-Scoreboard.png)
+![Image of Pass Generated]()
 
 
 ## Licensing & Contact Info
