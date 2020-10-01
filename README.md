@@ -19,7 +19,7 @@ You are prompted to enter a password length
 Then you must chose whether you would like your secure password to include the following chararcters : uppercase letters, lowercase letters, special characters, and numeric characters. 
 
 ![Image of Uppercase Letters Question](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Uppercase-Char.png)
-![Image of Lowercase Letters Question]()
+![Image of Lowercase Letters Question](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Lowercase-Char.png)
 ![Image of Special Characters Question]()
 ![Image of Numeric Characters Question]()
 
