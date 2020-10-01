@@ -14,7 +14,7 @@ This is an automatic secure password generator.
 
 You are prompted to enter a password length
 
-![Image of Homepage]()
+![Image of Homepage](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Number-of-Char.png)
 
 Then you must chose whether you would like your secure password to include the following chararcters : uppercase letters, lowercase letters, special characters, and numeric characters. 
 
