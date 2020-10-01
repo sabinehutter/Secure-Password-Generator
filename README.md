@@ -1,6 +1,6 @@
 # Welcome to a Secure Password Generator Application!
 
-This application is hosted on Github Pages and can be ~play at : https://sabinehutter.github.io/Web-Dev-Quiz/
+This application is hosted on Github Pages and be used to generate a secure password at : https://sabinehutter.github.io/Secure-Password-Generator/
 
 ## Technologies Used 
 
@@ -8,17 +8,25 @@ This application was created using HTML, CSS, and Javascript.
 
 ## What is the Web Developer Quiz??
 
-This is a fun 5 question quiz testing your knowledge about web development! 
+This is an automatic secure password generator. 
 
-When you open the application you will be greeted with the home page.
+![Image of Password Generator](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev-Quiz-Homepage.png)
+
+You are prompted to enter a password length
 
 ![Image of Homepage](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev-Quiz-Homepage.png)
 
-You will then be naviagated through the questions. As you answer the questions, you will hear a happy or angry sound depending whether you answer the question correctly! 
-![Image of Questions](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
+Then you must chose whether you would like your secure password to include the following chararcters : uppercase letters, lowercase letters, special characters, and numeric characters. 
 
-At the end you will be prompted to input your initials and submit them to the scoreboard! As you play the game multiple times, you will see the scoreboard update, as more and more players names are added
-![Image of Scoreboard](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev-Quiz-Scoreboard.png)
+![Image of Uppercase Letters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
+![Image of Lowercase Letters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
+![Image of Special Characters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
+![Image of Numeric Characters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
+
+
+At the end you will be presented with a secure password that meets all your guidelines!
+
+![Image of Pass Generated](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev-Quiz-Scoreboard.png)
 
 
 ## Licensing & Contact Info
