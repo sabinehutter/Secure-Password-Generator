@@ -23,6 +23,8 @@ Then you must chose whether you would like your secure password to include the f
 ![Image of Special Characters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
 ![Image of Numeric Characters Question](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
 
+If you do not chose at least one condition you will be prompt to start again and choose at least one. 
+![Image of Condition Chose](https://sabinehutter.github.io/Web-Dev-Quiz/Readme_Assets/Web-Dev_Quiz-Questions.png)
 
 At the end you will be presented with a secure password that meets all your guidelines!
 
