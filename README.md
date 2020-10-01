@@ -10,7 +10,7 @@ This application was created using HTML, CSS, and Javascript.
 
 This is an automatic secure password generator. 
 
-![Image of Password Generator]()
+![Image of Password Generator](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Password-Generator.png)
 
 You are prompted to enter a password length
 
