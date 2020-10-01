@@ -28,7 +28,7 @@ If you do not chose at least one condition you will be prompt to start again and
 
 At the end you will be presented with a secure password that meets all your guidelines!
 
-![Image of Pass Generated]()
+![Image of Pass Generated](https://sabinehutter.github.io/Secure-Password-Generator/Assets/Password-Generator.png)
 
 
 ## Licensing & Contact Info
